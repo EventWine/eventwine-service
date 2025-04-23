@@ -6,7 +6,6 @@ public class RegisterRequest {
     private String apellido;
     private String email;
     private String password;
-    private String nombreGalpon;
 
     public String getNombre() {
         return nombre;
@@ -22,9 +21,5 @@ public class RegisterRequest {
 
     public String getPassword() {
         return password;
-    }
-
-    public String getNombreGalpon() {
-        return nombreGalpon;
     }
 }
